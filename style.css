@@ -137,11 +137,12 @@
 .button-container{
     display: flex;
    justify-content: center;
-   align-items: center
+   align-items: center;
+   margin-bottom: 60px;
 }
 .button-container button{
     padding: 12px 24px;
-    background-color: gray; 
+    background-color: rgb(197, 143, 143); 
     color: #fff;
     font-size: 16px;
     border: none;
@@ -166,6 +167,7 @@
     width:290px;
     height: 240px;
     box-shadow: 3px 7px 10px rgb(111, 128, 111);
+    border-radius: 4px;
 }
 .card p{
     text-align: center;
@@ -179,8 +181,53 @@
 }
 .card button{
     padding:6px 12px;
-    background-color: rgb(123, 182, 179);
+    background-color: rgb(130, 170, 77);
     font-size: 20px;
     border:none;
     border-radius: 4px;
 }
+/* design professional */
+.design{
+    margin:60px 30px ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.design-img{
+    width: 50%;
+}
+.design-text{
+    width:50%;
+}
+.design-text h3{
+    font-size:20px;
+    font-style: normal;
+    margin-bottom: 7px;
+}
+.design-text h1{
+    font-size: 30px;
+    font-style: normal;
+    margin-bottom: 15px;
+}
+.design-text h2{
+    margin-bottom: 13px;
+}
+.design-text p{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.design-img img{
+    width:430px;
+    height:400px;
+}
+/* mam-img-intro */
+.man-img-intro{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.man-img-text{
+    margin-top: 13px;
+}
+
