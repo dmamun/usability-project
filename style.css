@@ -70,7 +70,7 @@
     justify-content:space-evenly;
     align-items: center;
     margin-bottom: 40px;
-    height: 100vh;
+    
     
    
 }
@@ -229,5 +229,39 @@
 
 .man-img-text{
     margin-top: 13px;
+}
+/* platform-section*/
+.platform-section h1{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.platform-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.platform-button button{
+    padding: 8px 10px;
+    border: 2px solid lightblue;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.platform-button button:hover{
+    color:coral;
+
+}
+/* platform-items */
+.platform-items{
+    margin:10px 30px ;
+
+}
+.item-1{
+    width:230px;
+    height: 270px;
+   
 }
 
